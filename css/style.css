@@ -1,0 +1,166 @@
+.intro p{
+    background-color: #EFF6FF;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: #155DFC;
+}
+
+.des h1{
+    font-size: 50px;
+}
+
+.des p{
+    font-size: 20px;
+}
+
+.des i{
+    opacity: 0.8;
+}
+
+.des .btn-light{
+    border: 1px solid #E5E5E5;
+}
+
+.star-count span{
+    color: #FDC700;
+    font-size: large;
+}
+
+.star-count p{
+    font-size: 15px;
+}
+
+.image-property img{
+    border-radius: 15px;
+}
+
+.image-property {
+    position: relative;
+}
+
+.overlay-box {
+    position: absolute;
+    bottom: -30px;          
+    left: -30px;             
+    color:black;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.trusted-text {
+    font-size: 14px;
+    margin: 0;
+}
+
+.trusted-number {
+    font-size: 30px;
+    margin: 0;
+}
+
+.trusted-company {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.feature-section {
+    background-color: #F9FAFB;
+}
+
+.feature-section p{
+    font-size: 20px;
+}
+
+.card-item h6{
+    font-size: 18px;
+}
+
+.card-item p{
+    font-size: 15px;
+}
+
+.card-item span i{
+    color: #155DFC;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;   
+    height: 50px;
+    font-size: 24px; 
+}
+
+.feature-card {
+    background: #ffffff;
+    padding: 25px 20px;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    border: 1px solid #EBEBEB;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.10);
+    background: #ffffff;
+}
+
+
+.testimonial-section p{
+    font-size: 20px;
+}
+
+.testi-card{
+    background: #ffffff;
+    padding: 25px 20px;
+    border-radius: 12px;
+    border: 1px solid #EBEBEB;
+}
+
+.testi-card span{
+    color: #FDC700;
+}
+.testi-card .bio{
+    font-size: 15px;
+}
+
+.customer-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%; 
+}
+
+.content h6{
+    font-size: 15px;
+}
+
+.content p{
+    font-size: medium;
+}
+
+.contents p{
+    font-size: 20px;
+}
+
+.contents .btn-primary{
+    border: 1px solid white;
+    font-weight: 500;
+}
+
+.contents .btn-primary:hover{
+    background-color: white;
+    color: #0D6EFD;
+}
+
+.contents .trial{
+    font-size: 14px;
+}
+
+.horizental-line hr{
+    width: 100%;
+}
+
+.icons a i:hover{
+    color: black;
+}

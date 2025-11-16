@@ -1,0 +1,24 @@
+/* Mobile: 100% width */
+@media (max-width: 576px) {
+    .btn-light , .btn-primary {
+        width: 100%;
+        display: block;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;   
+        gap: 10px;            
+    }
+
+    .icons a {
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center;
+        text-decoration: none;
+    }
+
+    .icons a i {
+        text-align: left;
+    }
+}
