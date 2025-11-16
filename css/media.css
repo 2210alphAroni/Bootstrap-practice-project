@@ -1,24 +1,30 @@
 /* Mobile: 100% width */
 @media (max-width: 576px) {
-    .btn-light , .btn-primary {
+    .btn-light , .btn-primary , .btn-dark {
         width: 100%;
         display: block;
     }
 
+    .copyright p{
+        text-align: center;
+    }
+
     .icons {
         display: flex;
-        flex-direction: row;   
-        gap: 10px;            
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center; 
+        align-items: center;
     }
 
     .icons a {
         display: flex;
-        justify-content: flex-start; 
+        justify-content: center;
         align-items: center;
         text-decoration: none;
     }
 
     .icons a i {
-        text-align: left;
+        text-align: center;
     }
 }
